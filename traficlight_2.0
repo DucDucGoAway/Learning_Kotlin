@@ -48,13 +48,13 @@ fun main() {
 
 
 fun main() {
-    val light = "Red"
+    val light = "blue"
     
-    val message = when (light)
-    "Red", "red"							-> "STOP!!"
-    "Green", "green", "I'm clourblind"		-> "yeah go ahead mate."
-    "Yellow", "yellow", "Amber", "amber"	-> "slown down"
-    else "what"								-> "what?"
-    
+    val message = when(light) {
+    	"Red", "red"							-> "STOP!!"
+    	"Green", "green", "I'm clourblind"		-> "yeah go ahead mate."
+    	"Yellow", "yellow", "Amber", "amber"	-> "slown down"
+    	else									-> "what?"
+    }
     println(message)
 }
