@@ -1,16 +1,3 @@
-Solutions
-Docs
-Community
-Teach
-Play
-
-1.8.0
-JVM
-
-Copy link
-Share code
-Run
-
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 ​
