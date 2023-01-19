@@ -63,9 +63,9 @@ fun finalMeasurement(initialUnit: String, finalUnit: String, initialMeasurement:
             else			-> 0.0
         }
         "Fahrenheit"	-> when(finalUnit) {
-            "Celcius"		-> 1.8 * (initialMeasurement - 32)
+            "Celcius"		-> (initialMeasurement - 32) * 5 / 9
             "Fahrenheit"	-> initialMeasurement
-            "Kelvin"		-> 1.8 * (initialMeasurement - 32) + 273.15
+            "Kelvin"		-> (initialMeasurement - 32) * 5 / 9 + 273.15
             else			-> 0.0
         }
         "Kelvin"		-> when(finalUnit) {
